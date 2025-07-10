@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'CustomHeadingFont';
+  src: url('/fonts/YourHeadingFont-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'CustomBodyFont';
+  src: url('/fonts/YourBodyFont-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Outros estilos globais */
+body {
+  font-family: 'CustomBodyFont', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'CustomHeadingFont', sans-serif;
+}
